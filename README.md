@@ -13,6 +13,9 @@
 
 ## **Overview**
 
+### Video Walkthrough
+Follow this link to watch a video showing how to install and use the program: 
+
 ### Description
 This program imports a csv file with a column of ISBNs and exports a new csv file with columns containing the following data pulled from the Worldcat Search API:
 - Title
@@ -61,7 +64,7 @@ This program can be installed as an application on Windows.  Simply use instruct
 Clone the git repository or download the ZIP file.  You can get to the download link for the zip file by clicking on the green button in the upper right corner of the repository page labled <>Code.  You'll find the download link for the zip file in the dropdown that appears after clicking the <> Code button. After unzipping the file double click on the installer program called WorldCatSearchAPIParser_WINDOWS_1.0.0_installer.exe.  You'll be guided by the installation wizard to install the program and add shortcut on your desktop if you choose to do so.  If you don't want the full repo, you could also simply click on WorldCatSearchAPIParser_WINDOWS_1.0.0_installer.exe listed in th repo, then click the ellipsis button in the upper right corner, then select download from the drop down options.
 
 ### Run as a Script
-You can start this program in Linux, Windows, and Mac as a Python script using a command line terminal.  If this is the route you take you must be sure to install all software dependencies yourself (see the section for [Requirements](#requirements) above.  You can place the main.py file from this repo in any directory you want, but it's best to create a new directory to store the main.py file in.  The first time you run this program as a script it's going to produce a .db file that stores the program's database information in the same directory the main.py file is stored.  To run as a script start by opening a terminal (bash for Linux and Mac, PowerShell for Windows) and go to the directory where the main.py file you downloaded from this repo is located.  Both bash and PowerShell terminals can change directories by running this command: ```cd /path/to/main.py```.  Once in the proper directory run this command if you're using Windows: ```python.exe main.py``` and run this command if using Linux or Mac: ```python3 main.py```.  This should cause the user interface to appear.
+You can start this program in Linux, Windows, and Mac as a Python script using a command line terminal.  If this is the route you take you must be sure to install all software dependencies yourself (see the section for [Requirements](#requirements) above).  You can place the WorldCatApiParser.py file from this repo in any directory you want, but it's best to create a new directory to store the WorldCatApiParser.py file in.  The first time you run this program as a script it's going to produce a .db file that stores the program's database information in the same directory the WorldCatApiParser.py file is stored.  To run as a script start by opening a terminal (bash for Linux and Mac, PowerShell for Windows) and go to the directory where the WorldCatApiParser.py file you downloaded from this repo is located.  Both bash and PowerShell terminals can change directories by running this command: ```cd /path/to/WorldCatApiParser.py```.  Once in the proper directory run this command if you're using Windows: ```python.exe WorldCatApiParser.py``` and run this command if using Linux or Mac: ```python3 WorldCatApiParser.py```.  This should cause the user interface to appear.
 
 
 ## **License**
