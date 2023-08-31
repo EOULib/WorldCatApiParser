@@ -3,6 +3,7 @@
 **Table of Contents:**
 
 1. [Overview](#overview)
+    - [Video Walkthrough](#video-walkthrough)
 	- [Description](#description)
 	- [Requirements](#requirements)
 	- [How to Use](#how-to-use)
@@ -14,7 +15,7 @@
 ## **Overview**
 
 ### Video Walkthrough
-Follow this link to watch a video showing how to install and use the program: 
+Follow this link to watch a video showing how to install and use the program: https://youtu.be/BKYTLxps_lo 
 
 ### Description
 This program imports a csv file with a column of ISBNs and exports a new csv file with columns containing the following data pulled from the Worldcat Search API:
