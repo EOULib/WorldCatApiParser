@@ -1,3 +1,8 @@
+# ATTENTION:  This Repo has been archived and no longer works after OCLC retired their V1 Worldcat Search API.  Version 2 of the API doesn't return the rich amount of data Version 1 did so this parser couldn't be updated in a way that would return reliable data.  A new parser was built using Open Library API's that works better than this WorldCat version did.  It's basic functionality will work without OCLC membership and API credentials (unless enabling the WorldCat option to get holdings data).  Here's a link to the new parser:  [https://github.com/EOULib/open_library_isbn_parser](https://github.com/EOULib/open_library_isbn_parser)
+
+
+
+
 # OCLC Worldcat Search API Data to CSV Parser
 
 **Table of Contents:**
